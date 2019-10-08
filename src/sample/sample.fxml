@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.web.WebView?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <WebView fx:id="webView" prefHeight="446.0" prefWidth="580.0" />
+      <Pane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="googleButton" layoutX="29.0" layoutY="14.0" mnemonicParsing="false" onAction="#jumpGoogle" prefHeight="40.0" prefWidth="150.0" text="Google" />
+            <Button fx:id="yandexButton" layoutX="215.0" layoutY="14.0" mnemonicParsing="false" onAction="#jumpYandex" prefHeight="40.0" prefWidth="150.0" text="Yandex" />
+            <Button fx:id="ramblerButton" layoutX="398.0" layoutY="14.0" mnemonicParsing="false" onAction="#jumpRambler" prefHeight="40.0" prefWidth="150.0" text="Rambler" />
+         </children>
+      </Pane>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>
